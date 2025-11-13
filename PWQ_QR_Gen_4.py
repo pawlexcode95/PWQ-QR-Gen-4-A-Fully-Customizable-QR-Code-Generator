@@ -168,7 +168,7 @@ logo embedding, and more.
         PWQ_QR_GEN_4._logoimg = logoimg
         self._logoid = PWQ_QR_GEN_4.PWQ_QR_Logo.generate_logo_path()
         if self._logoid is not None:
-            self._logoimg_path = os.path.join(r"C:\Users\pawli\OneDrive\Dokumenty\QR Code Testing", str(self._logoid)) if type(self._logoid) != tuple else self._logoid[0]
+            self._logoimg_path = os.path.join(r".venv\Lib\site-packages\pwq_qr_gen_4", str(self._logoid)) if type(self._logoid) != tuple else self._logoid[0]
         if not os.path.exists(self._savefilepath): raise FileNotFoundError("Provided File Path does not exist and/or isn't correct!")
         if input_txt is not None: self._input_txt = input_txt
         if input_txt is None: raise PWQAIUnprovidedError(f"User is compelled to provide desired text input data! Provided data: {input_txt} is invalid!")
