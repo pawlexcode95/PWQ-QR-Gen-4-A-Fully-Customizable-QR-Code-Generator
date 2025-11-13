@@ -12,7 +12,7 @@ PWQ QR Gen 4 is a powerful and flexible QR code generator built for developers, 
 • 	--- Visual Customization:
 • 	RGB foreground and background color control
 • 	Circular or square grid modules
-• 	Multi-logo support (Instagram, YouTube, WhatsApp, PayPal, Netflix, Messenger, Gmail, or custom uploads)
+• 	Multi-logo support (Instagram, YouTube, WhatsApp, PayPal, Netflix, Messenger, Gmail, or custom uploads) NOTE: Version 4-4.0.42 Removed the pre-created logos due to copyright and trademark issues! 
 • 	Output Options: Save to PNG with custom filename and path
 •   Very Simplistic Design & Usage
 
