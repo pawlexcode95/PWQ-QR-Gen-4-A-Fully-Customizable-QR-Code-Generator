@@ -12,7 +12,7 @@ PWQ QR Gen 4 is a powerful and flexible QR code generator built for developers, 
 • 	--- Visual Customization:
 • 	RGB foreground and background color control
 • 	Circular or square grid modules
-• 	Multi-logo support (Instagram, YouTube, WhatsApp, or custom uploads)
+• 	Multi-logo support (Instagram, YouTube, WhatsApp, PayPal, Netflix, Messenger, Gmail, or custom uploads)
 • 	Output Options: Save to PNG with custom filename and path
 •   Very Simplistic Design & Usage
 
@@ -51,7 +51,7 @@ PWQQRGEN4 = PWQ_QR_GEN_4(
     gridshape="circle",                        # Shape of the grid
     gridsize=15,                               # Module size in pixels
     quietzonesize=6,                           # Border size in modules
-    logoimg="instagram",                       # Logo embedded
+    logoimg="netflix",                         # Logo embedded
     encoding="ISO-8859-1",                     # Encoding technique
     version=4,                                 # QR Version (1–40)
     eclvl=PWQ_QR_GEN_4.PWQ_QR_Ecl._Quartile,   # Error Correction Level
