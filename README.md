@@ -21,7 +21,7 @@ This project builds on the structural logic and segment division algorithms from
 
 # 🧩 Usage
 
-### ✅ PWQAI Mode — Enabled
+### ✅ PWQAI Mode — Enabled & Disabled
 ```python
 from PWQ_QR_GEN_4 import PWQ_QR_GEN_4
 
