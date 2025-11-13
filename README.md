@@ -33,7 +33,7 @@ PWQQRGEN4 = PWQ_QR_GEN_4(
     (255, 0, 0),                               # Background color (RGB)
     (200, 200, 25),                            # Foreground color (RGB)
     gridshape="square",                        # Shape of the grid: "square" or "circle"
-    logoimg="instagram",                       # Logo: "Instagram", "Youtube", "Whatsapp", etc.
+    logoimg="C:\path\to\the\logo.png",         # Logo: "Instagram", "Youtube", "Whatsapp", etc. NOTE: Version 4-4.0.42 Removed the pre-created logos due to copyright and trademark issues! 
     PWQAI_mode=True                            # Enable PWQAI automatic mode
 )
 ⚙️ PWQAI Mode — Disabled
@@ -51,7 +51,7 @@ PWQQRGEN4 = PWQ_QR_GEN_4(
     gridshape="circle",                        # Shape of the grid
     gridsize=15,                               # Module size in pixels
     quietzonesize=6,                           # Border size in modules
-    logoimg="netflix",                         # Logo embedded
+    logoimg="false",                           # Logo embedded set to false
     encoding="ISO-8859-1",                     # Encoding technique
     version=4,                                 # QR Version (1–40)
     eclvl=PWQ_QR_GEN_4.PWQ_QR_Ecl._Quartile,   # Error Correction Level
