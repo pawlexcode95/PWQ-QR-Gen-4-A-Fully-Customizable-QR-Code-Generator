@@ -243,17 +243,6 @@ logo embedding, and more.
                 if is_light_gray(r, g, b, tolerance): new_data.append((255, 255, 255, 0))  # fully transparent
                 else: new_data.append((r, g, b, a))
             logoimg.putdata(new_data)
-        if self._logoid is not None:
-            logoimg = Image.open(self._logoimg_path).convert("RGBA")
-            datas = logoimg.getdata()
-            target = (192, 192, 192)
-            tolerance = 5
-            def is_light_gray(r, g, b, tol=10): return all(abs(c - t) <= tol for c, t in zip((r, g, b), target))
-            new_data = []
-            for r, g, b, a in datas:
-                if is_light_gray(r, g, b, tolerance):new_data.append((255, 255, 255, 0))  # fully transparent
-                else:new_data.append((r, g, b, a))
-            logoimg.putdata(new_data)
             logosize = int(total * 0.175) # 20% of the total size of qr code (approx.)
             curlogoaspect: int = int(logoimg.width // logoimg.height) if logoimg.width >= logoimg.height else int(logoimg.height // logoimg.width)
             logoimage = logoimg.resize((logosize, int(logosize / curlogoaspect)), Image.LANCZOS)
